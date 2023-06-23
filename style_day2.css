@@ -1,0 +1,302 @@
+.title{
+    border: none;
+    background-color: rgb(6,20,36);
+    background-image: url("https://source.unsplash.com/1600x900/?night");
+    background-size: cover;
+    width: 1000px;
+    height: 100px;
+    border-radius: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px 16px;
+    color: white;
+    position: relative;    
+}
+
+.title a{
+    text-align: left;
+
+    position: absolute;
+    left: 0;
+    margin: 15px;
+}
+.title p{
+    text-align: right;
+
+    position: absolute;
+    right: 0;
+    margin: 15px;
+}
+
+.header{
+    background-image: url("https://source.unsplash.com/1600x900/?dinner");
+    text-align: center;
+    border: 1px solid whitesmoke;
+    color: white;
+    height: 260px;
+    width: 900px;
+    margin: 10px auto;
+    background-size: cover;
+    border-radius: 3px;
+    position: relative; 
+}
+
+.header h1{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+.header h2{
+    font-weight: 100px;
+    font-size: 25px;
+}
+
+.header-btn{
+    border: none;
+    background-color: white;
+    color: gray;
+    font-style: italic;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    width: 400px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+
+.explore{
+    background-image: url("https://source.unsplash.com/1600x900/?bali");
+    text-align: center;
+    border: 1px solid whitesmoke;
+    color: white;
+    height: 320px;
+    width: 570px;
+    margin: 35px auto;
+    background-size: cover;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative; 
+}
+
+.explore h1{
+    font-weight: 3000px;
+    font-size: 32px;
+    margin-top: 100px;
+    margin-bottom: 18px;
+}
+
+.explore p{
+    margin: auto 10px;
+}
+
+.explore-btn{
+    border: none;
+    background-color: white;
+    color: black;
+    width: 150px;
+    font-weight: bold;
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+
+.card1{
+    text-align: left;;
+    border: 1px solid lightgray;
+    width: 400px;
+    padding: 10px;
+    margin: 20px auto;
+    font-size: 16px;
+    border-radius: 8px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-header{
+    position: relative;
+}
+
+.card1-img{
+    border-radius: 8px;
+    width:100%;
+}
+
+.tag1{
+    border: none;
+    background-color: gray;
+    padding: .6px 8px;
+    color: white;
+    border-radius: 2px;
+    font-size: 13px;
+
+    position: absolute;
+    top: 0;
+    margin: 10px;
+}
+
+.tag2{
+    border: none;
+    background-color: rgb(38, 111, 239);
+    padding: 0.2px 6px;
+    color: white;
+    font-weight: 400px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+    position: absolute;
+    bottom: 0;
+    margin: 18px 0px;
+}
+
+.tag3{
+    border: none;
+    background-color: white;
+    padding: 1px 5px;
+    color: black;
+    border-radius: 4px;
+    font-size: 16px;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 18px 12px;
+}
+
+.card1 h1{
+    font-weight: 530
+}
+
+.card1 h2{
+    color: gray;
+    font-weight: 10;
+
+}
+
+.card-footer{
+    text-align: left;
+    border-top: 1px solid lightgray;
+    color: black;
+    margin: 0px auto;
+    height: 50px;
+
+    position: relative;
+}
+
+.card-footer p{
+    position: absolute;
+    color: gray;
+    border: none;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 90px;
+
+}
+
+.footer-btn{
+    position: absolute;
+    border: none;
+    background-color: rgb(33,146,142);
+    height: 16px;
+    width: 70px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-left: 0px;  
+    padding-top: 12px;
+
+}
+
+.footer-btn a{
+    position: relative;
+    margin-left: 14px;
+    font-size: 10px;
+    margin-top: -11px;
+    border: none;
+    color: white;  
+}
+
+.footer-btn2 {
+    position: absolute;
+    border: none;
+    background-color: rgb(249,175, 118);
+    height: 2.8px;
+    width: 60px;
+    font-size: 10px;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-left: 5px;  
+    padding-top: 12px;  
+}
+
+.footer-btn2 p{
+    position: relative;
+    margin-left: 4px;
+    font-size: 10px;
+    margin-top: -11px;
+    border: none;
+    color: black;  
+}
+
+
+.contact-card{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px auto;
+    text-align: center;
+    border: 1px solid lightgray;
+    width: 200px;
+    height: 225px;
+    border-radius: 8px;
+}
+
+.contact-card-header{
+    position: relative;
+}
+
+.contact-card-img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-size: cover;
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+
+.contact-card-pfp{
+    width: 70px;
+    height: 70px;
+    border: 3px solid white;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -136px;   
+    margin-top: 50px; 
+}
+
+.contact-card p{
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-weight: 1000;
+    font-size: 24px;
+}
+
+.contact-card a{
+    color: gray;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;    
+    font-weight: 500;
+    font-size: 15px;   
+}
